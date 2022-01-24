@@ -1,0 +1,246 @@
+/*
+ Theme Name:   CT Custom Child
+ Theme URI:    http://coalitiontest.local/
+ Description:  theme description
+ Author:       Chan Inthisone
+ Author URI:   http://coalitiontest.local
+ Template:     ct-custom
+ Version:      1.0.0
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  ct-custom
+*/
+
+
+
+@import url("../ct-custom/style.css");
+
+h1, h2, h3, h4 {
+    display: block;
+    color: #ff6200;
+    font-weight: bold;
+}
+
+h2.header-style-1 {
+    font-weight: 100;
+    text-transform: uppercase;
+    border-bottom: 6px solid #525252;
+}
+
+
+p {
+    font-size: 14px;
+}
+
+
+
+main#main {
+   
+    margin: auto -1rem 1rem;
+    max-width: 960px;
+    margin: auto;
+    padding: 25px 25px;
+}
+
+.top-bar {
+    height: 34px;
+    background: #ff6200;
+}
+
+
+
+#top-bar-cont{
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 25px;
+    padding-top: 3px;
+}
+
+
+
+.header-phone {
+    width: 50%;
+    float: left;
+    font-size: 14px;
+    padding-top: 3px;
+}
+
+.login-signup {
+    width: 50%;
+    float: right;
+    font-size: 14px;
+    padding-top: 3px;
+}
+
+header#masthead {
+    height: 109px;
+    background: #ff6200;
+    background: #f9f9f9;
+
+}
+
+.head-wrapper {
+    max-width: 960px;
+    height: 109px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    padding: 5px 25px;
+    justify-content: space-between;
+}
+
+.main-navigation {
+    width: auto;
+}
+
+
+
+span.call-cta {
+    color: #be3600;
+}
+
+
+button.menu-toggle {
+    display: none;
+}
+
+
+
+ul#primary-menu li a {
+    padding: 5px 12px;
+    color: #000000;
+    margin-right: 4px;
+}
+
+ul#primary-menu>.current-menu-item>a {
+    font-weight: bold;
+    border-bottom: 4px solid #ff5a00;
+}
+
+ul#primary-menu>li>a:hover {
+    font-weight: bold;
+    border-bottom: 4px solid #ff5a00;
+}
+
+ul#primary-menu li {
+    padding: 6px 6px;
+}
+
+ul#primary-menu li a {
+    padding: 5px 0px;
+    color: #000000;
+    margin-right: 4px;
+}
+
+.main-navigation ul ul a {
+    width: 90px;
+}
+
+ul.sub-menu {
+    background: #fff;
+    box-shadow: none !important;
+    border: 1px solid;
+}
+
+ul#primary-menu .sub-menu li.menu-item-has-children>a {
+    font-weight: bold;
+}
+
+ul#primary-menu .sub-menu li a:hover {
+    font-weight: bold;
+}
+
+
+.login-signup {
+    text-align: right;
+}
+
+ul.signup-menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul.signup-menu li {
+    float: left;
+}
+
+ul.signup-menu {
+    float: right;
+}
+
+ul.signup-menu li a {
+    text-decoration: none;
+    margin-left: 16px;
+    font-size: 15px;
+}
+
+ul.signup-menu li:first-child a {
+    color: #be3600;
+}
+
+ul.signup-menu li a {
+    color: #ffffff;
+}
+
+
+.col2-form {
+    display: flex;
+}
+
+span.wpcf7-form-control-wrap.your-phone {
+    margin-right: 13px;
+}
+
+input[type="text"], input[type="email"], input[type="url"], input[type="password"], input[type="search"], input[type="number"], input[type="tel"], input[type="range"], input[type="date"], input[type="month"], input[type="week"], input[type="time"], input[type="datetime"], input[type="datetime-local"], input[type="color"], textarea {
+    color: #666;
+    border: 1px solid #ccc;
+    border-radius: 1px;
+    padding: 3px;
+    background: #f6f6f6;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+input.wpcf7-submit {
+    background: #ff6200;
+    color: #fff;
+    border-radius: 0px;
+    border: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 11px 15px;
+}
+
+.fa {
+    padding: 15px 4px;
+    font-size: 15px;
+    width: 32px;
+    text-align: center;
+    text-decoration: none;
+    margin: 2px 3px;
+    background: #d0d0d0;
+    height: 32px;
+    line-height: 3px;
+    text-align: center !important;
+    color: #fff;
+}
+
+
+
+.fa:hover {
+    /* opacity: 0.7; */
+    background: #000;
+    color: #fff;
+}
+
+a.fa::before {
+    color: #fff;
+}
+
+
+
+
+
+
+
+
