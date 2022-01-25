@@ -1,0 +1,22 @@
+{
+  "name": "ct-custom-child",
+  "version": "1.0.0",
+  "description": "This Wordpress theme is customized to have a custom options page that has multiple fields with an image upload button.",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cinthisone/coalition-theme.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cinthisone/coalition-theme/issues"
+  },
+  "homepage": "https://github.com/cinthisone/coalition-theme#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2"
+  }
+}
